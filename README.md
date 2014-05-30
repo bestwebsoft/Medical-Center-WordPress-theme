@@ -35,8 +35,8 @@ If you want to create your own language pack or update the existing one, please,
 Copyrights for Resources used in this theme
 --------------------
 * External font from Google Webfonts is used in Theme:
-- Ubuntu - http://www.google.com/fonts/specimen/Ubuntu License: Ubuntu Font License, 1.0 Copyright: Steve Matteson, https://profiles.google.com/107777320916704234605/about
+Ubuntu - http://www.google.com/fonts/specimen/Ubuntu License: Ubuntu Font License, 1.0 Copyright: Steve Matteson, https://profiles.google.com/107777320916704234605/about
 * The following js-files are used in the Theme:
-- pie.htc in the "js" folder License: Apache License Version 2.0 and GPL Version 3. Copyright: Jason Johnston, https://raw.github.com/lojjic/PIE/master/LICENSE-APACHE2.txt - 'html5.js' file in the "js" folder: License: MIT/GPL2 Licensed Source: https://github.com/aFarkas/html5shiv Copyright: HTML5 Shiv v3.6 | @afarkas @jdalton @jon_neal @rem | - script.js in the "js" folder License: GNU General Public License v3 Copyright: the Bestwebsoft team, https://github.com/bestwebsoft - jquery.flexslider.js in the "js" folder License: GPLv2 Source: http://www.woothemes.com/flexslider/ Copyright: 2012 WooThemes
+pie.htc in the "js" folder License: Apache License Version 2.0 and GPL Version 3. Copyright: Jason Johnston, https://raw.github.com/lojjic/PIE/master/LICENSE-APACHE2.txt - 'html5.js' file in the "js" folder: License: MIT/GPL2 Licensed Source: https://github.com/aFarkas/html5shiv Copyright: HTML5 Shiv v3.6 | @afarkas @jdalton @jon_neal @rem | - script.js in the "js" folder License: GNU General Public License v3 Copyright: the Bestwebsoft team, https://github.com/bestwebsoft - jquery.flexslider.js in the "js" folder License: GPLv2 Source: http://www.woothemes.com/flexslider/ Copyright: 2012 WooThemes
 * The following images are used in the "images" folder in the Theme
 License: GNU General Public License v3 Copyright: the Bestwebsoft team, https://github.com/bestwebsoft Everything else used in this theme has been created by BestWebSoft, especially for the *Medical Center* theme and is distributed under GPL license. 
