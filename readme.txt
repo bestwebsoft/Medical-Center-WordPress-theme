@@ -3,8 +3,8 @@ Contributors: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
 Tags: white, blue, gray, fixed-layout, fluid-layout, left-sidebar, threaded-comments, sticky-post, custom-header, custom-background, translation-ready, featured-images
 Requires at least: 3.7
-Tested up to: 3.9
-Stable tag: 1.0.2
+Tested up to: 3.9.1
+Stable tag: 1.0.3
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Medical Center WordPress Theme, Copyright 2014 BestWebSoft.com
@@ -12,7 +12,7 @@ Medical Center is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Medical Center Wordpress theme is a simple solution to customize your website. It is a simple and powerful tool, that is why it can be used for various categories of websites.
+If you need a perfect Theme for a hospital website, pharmacy website, medical forum, etc Medical Center is what you were looking for. It is a professional and easy to use theme with modern design. Whether you want to give medical recommendations, advice or just share your ideas Medical Center Theme is a wise solution. Is simple to customize, good-looking and have really user-friendly interface so you dont have to spend much time for customization. Medical Center demo can be found here: http://bestwebsoft.com/wordpress_demo_theme/medicalcenter/
 
 = Features = 
 
@@ -120,6 +120,11 @@ The custom header image can be used. From your Admin UI (Appearance), select Hea
 
 == Changelog == 
 
+= V1.0.3 - 21.07.2014 =
+* Bugfix: Post image size bug was fixed.
+* Bugfix: Select element bugs were fixed.
+* Update: We checked theme for WordPress 3.9.1 and updated readme.txt.
+
 = V1.0.2 - 21.05.2014 =
 * Update: We update sidebar.
 
@@ -131,6 +136,9 @@ The custom header image can be used. From your Admin UI (Appearance), select Hea
 * Release date of Medical Center
 
 == Upgrade Notice == 
+
+= V1.0.3 =
+Post image size bug and select element bugs were fixed. We checked theme for WordPress 3.9.1 and updated readme.txt.
 
 = V1.0.2 =
 We updated sidebar.

@@ -19,7 +19,7 @@ function mdclcntr_setup() {
 	/* This theme uses post thumbnails */
 	add_theme_support( 'post-thumbnails' );
 	/* Set size of thumbnails */
-	add_image_size( 'mdclcntr_thumb', 560, 9999, true );
+	add_image_size( 'mdclcntr_thumb', 560, 400, false );
 	/* This theme uses slider */
 	add_theme_support( 'mdclcntr_slider' );
 	/* Set size of slider */
@@ -366,5 +366,3 @@ add_filter( 'excerpt_length', 'mdclcntr_length_for_slider' );
 add_action( 'mdclcntr_the_breadcrumb', 'mdclcntr_the_breadcrumb' );
 add_action( 'mdclcntr_the_post_caption', 'mdclcntr_the_post_caption' );
 add_action( 'mdclcntr_pagenavi', 'mdclcntr_pagenavi' );
-
-?>

@@ -1,10 +1,10 @@
 /*
 Theme Name: Medical Center
 Theme URI: http://bestwebsoft.com/theme/medical-center/
-Description: Medical Center Wordpress theme is a simple solution to customize your website.It's simple and very powerful tool, that is why this theme can be used for various categories of websites.
+Description: If you need a perfect Theme for a hospital website, pharmacy website, medical forum, etc Medical Center is what you were looking for. It is a professional and easy to use theme with modern design. Whether you want to give medical recommendations, advice or just share your ideas Medical Center Theme is a wise solution. Is simple to customize, good-looking and have really user-friendly interface so you dont have to spend much time for customization. Medical Center demo can be found here: http://bestwebsoft.com/wordpress_demo_theme/medicalcenter/
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
-Version: 1.0.2
+Version: 1.0.3
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: white, blue, gray, fixed-layout, fluid-layout, left-sidebar, threaded-comments, sticky-post, custom-header, custom-background, translation-ready, featured-images
@@ -1876,7 +1876,7 @@ a img.aligncenter {
 }
 
 .select-option {
-	padding: 6px 5px 5px 30px;
+	padding: 6px 5px 5px 5px;
 	cursor: pointer;
 	color: #666e72;
 }

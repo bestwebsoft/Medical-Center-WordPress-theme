@@ -174,11 +174,6 @@
 		*Clear button.
 		*/
 		$( 'input[type="reset"]' ).click( function() {
-			// reset select
-			$( this ).closest( 'form' ).find( '.select-active-option' ).find( 'div:first' ).text( $( this ).find( 'select' ).find( 'option:first' ).text() );
-			$( this ).find( 'select' ).find( 'option' ).each( function() {
-				$( this ).removeAttr( 'selected' );
-			});
 			// reset checkboxes, radio, input:file
 			$( '.mdclcntr-check,.mdclcntr-radio' ).removeClass( 'mdclcntr-active' );
 			$( '.file_validator' ).text( 'File is not selected.' );
@@ -198,6 +193,38 @@
 		});
 		$( '.style_file' ).click( function() {
 			$( '.wrap_file input' ).trigger( 'click' );
+		});
+
+		/* Check of previous selected items */
+		$( 'select' ).each(function() {
+			var index = $( this ).find( "option[selected]" ).index();
+			if (index >= 0) {
+				/* add attr selected to select */
+				var selected_select = $( this ).find( "option[selected]" );
+				/* write text to active opt */
+				$( selected_select ).parent().next().find( 'div:first' ).find( 'div:first' ).text( selected_select.text() );
+			}
+		});
+		/* Clear select elements */
+		$( 'input:reset' ).click( function() {
+			/* Clear original selects. */
+			$( 'select' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).find( "option:first" );
+				var clear_selected_select = $( this ).find( "option[selected]" );
+				/* clear active opt */
+				$( clear_selected_select ).removeAttr( 'selected' );
+				$( clear_select ).attr( 'selected', 'selected' );
+			});
+			/* Clear custom selects. */
+			$( '.select-active-option' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).parent().prev().find( "option:first" );
+				var clear_selected_select = $( this ).find( ".select-options" ).find( ".mdclcntr-option-selected" );
+				/* clear active opt */
+				$( this ).find( "div:first" ).text( clear_select.text() );
+				$( clear_selected_select ).removeClass( 'grngrdn-option-selected' );
+			});
 		});
 
 	});
