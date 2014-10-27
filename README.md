@@ -5,12 +5,12 @@ Medical Center WordPress theme is a simple solution to customize your website.It
 
 <img src="http://bestwebsoft.com/wp-content/uploads/2014/05/medical-center-wp-banner.jpg" />
 
-<a href="http://bestwebsoft.com/theme/medical-center/#description" target=_blank>Description</a> | 
-<a href="http://bestwebsoft.com/theme/medical-center/#installation" target=_blank>Installation</a> | 
-<a href="http://bestwebsoft.com/theme/medical-center/#faq" target=_blank>FAQ</a> | 
-<a href="http://bestwebsoft.com/theme/medical-center/#screenshots" target=_blank>Screenshots</a> | 
-<a href="http://bestwebsoft.com/theme/medical-center/#changelog" target=_blank>Changelog</a> | 
-<a href="http://bestwebsoft.com/theme/medical-center/#download" target=_blank>Download</a>
+<a href="http://bestwebsoft.com/products/medical-center/description" target=_blank>Description</a> | 
+<a href="http://bestwebsoft.com/products/medical-center/installation" target=_blank>Installation</a> | 
+<a href="http://bestwebsoft.com/products/medical-center/faq" target=_blank>FAQ</a> | 
+<a href="http://bestwebsoft.com/products/medical-center/screenshots" target=_blank>Screenshots</a> | 
+<a href="http://bestwebsoft.com/products/medical-center/changelog" target=_blank>Changelog</a> | 
+<a href="http://bestwebsoft.com/products/medical-center/download" target=_blank>Download</a>
 
 
 Features
@@ -30,7 +30,7 @@ Translation
 --------------------
 * Russian (ru_RU)
 
-If you want to create your own language pack or update the existing one, please, send the text of PO and MO files for BestWebSoft and we'll add it to the plugin. You also can download the latest version of the program for work with PO and MO files Poedit.
+If you create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text in PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 Copyrights for Resources used in this theme
 --------------------
