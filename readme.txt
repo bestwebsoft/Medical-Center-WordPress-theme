@@ -1,18 +1,19 @@
 === Medical Center ===
-Contributors: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Tags: white, blue, gray, fixed-layout, fluid-layout, left-sidebar, threaded-comments, sticky-post, custom-header, custom-background, translation-ready, featured-images
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.0.3
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Tags: two-columns, left-sidebar, threaded-comments, sticky-post, custom-header, custom-background, custom-menu, translation-ready, featured-images
+Requires at least: 4.2
+Tested up to: 4.5.3
+Stable tag: 1.1
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Medical Center WordPress Theme, Copyright 2014 BestWebSoft.com
+Medical Center WordPress Theme, Copyright 2016 BestWebLayout.com
 Medical Center is distributed under the terms of the GNU GPL
 
 == Description ==
 
-If you need a perfect Theme for a hospital website, pharmacy website, medical forum, etc Medical Center is what you were looking for. It is a professional and easy to use theme with modern design. Whether you want to give medical recommendations, advice or just share your ideas Medical Center Theme is a wise solution. Is simple to customize, good-looking and have really user-friendly interface so you dont have to spend much time for customization. Medical Center demo can be found here: http://bestwebsoft.com/wordpress_demo_theme/medicalcenter/
+If you need a perfect Theme for a hospital website, pharmacy website, medical forum, etc Medical Center is what you were looking for. It is a professional and easy to use theme with modern design. Whether you want to give medical recommendations, advice or just share your ideas Medical Center Theme is a wise solution. Is simple to customize, good-looking and have really user-friendly interface so you dont have to spend much time for customization. Medical Center demo can be found here: http://wp-demo-theme.bestweblayout.com/medicalcenter/
 
 = Features = 
 
@@ -31,7 +32,7 @@ If you need a perfect Theme for a hospital website, pharmacy website, medical fo
 
 * Russian (ru_RU)
 
-If you want to create your own language pack or update the existing one, please, send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You also can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+If you want to create your own language pack or update the existing one, please, send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestweblayout.com" target="_blank">BestWebLayout</a> and we'll add it to the plugin. You also can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Copyrights for Resources used in this theme = 
 
@@ -50,7 +51,7 @@ If you want to create your own language pack or update the existing one, please,
     Copyright: HTML5 Shiv v3.6 | @afarkas @jdalton @jon_neal @rem |
   - script.js in the "js" folder
     License:  GNU General Public License v3
-    Copyright: the Bestwebsoft team, https://github.com/bestwebsoft
+    Copyright: the BestWebSoft team, https://github.com/bestwebsoft
   - jquery.flexslider.js in the "js" folder
     License: GPLv2
     Source: http://www.woothemes.com/flexslider/ 
@@ -58,7 +59,7 @@ If you want to create your own language pack or update the existing one, please,
 
 * The following images are used in the "images" folder in the Theme
     License:  GNU General Public License v3
-    Copyright: the Bestwebsoft team, https://github.com/bestwebsoft
+    Copyright: the BestWebSoft team, https://github.com/bestwebsoft
 
 Everything else used in this theme has been created by BestWebSoft, especially for the Medical Center theme and is distributed under GPL license.
 
@@ -83,7 +84,7 @@ Activation and Use
 
 = Slider =
 
-As soon as you install the theme the metabox "Slider Settings" will appear in the post edit section of Wordpress admin panel.
+As soon as you install the theme the metabox "Slider Settings" will appear in the post edit section of WordPress admin panel.
 You will see two input fields in this metabox: text-field and еру checkbox. If you mark the checkbox of featured image of this particular post, it will appear in the slider.
 Every post (or page) has its own metabox, so if you go to another post (or page) and mark the checkbox there, the featured image of that post (or page) will be added to the slider as well, and the slider will have two slides. You can have as many posts (or pages) as you want.
 The slider itself is located on the front page and consists of three parts: the name (title of post), and an image (featured image of post).
@@ -94,7 +95,7 @@ To post thumbnails we recommend using the image with width equal to 560px.
 
 = Post Formats: Aside, Image, Link, Quote =
 
-Medical Center Wordpress theme supports these post formats only which are customized in a certain way. Other post formats will be displayed as standart posts.
+Medical Center WordPress theme supports these post formats only which are customized in a certain way. Other post formats will be displayed as standart posts.
 
 = Widgets =
 
@@ -104,7 +105,7 @@ Medical Center includes a standart Widget.
 
 = How can I change language from English into Russian? =
 
-Find file wp-config.php in the main catalog of your WordPress site. Open it and change define( ‘WPLANG’, '' ); for define( ‘WPLANG’, ‘ru_RU’ );
+Change the language in the admin settings screen. Settings > General > Site Language.
 
 = Does the theme support widgets? =
 
@@ -118,7 +119,29 @@ The custom header image can be used. From your Admin UI (Appearance), select Hea
 
 1. Theme home page.
 
-== Changelog == 
+== Changelog ==
+
+= v1.1 - 28.06.2016 =
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme styles.
+* Update: Unnecessary files category.php and tag.php have been removed.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.3.
+* Update: Theme was transferred to new WordPress account.
+
+= V1.0.6 - 16.04.2015 =
+* Update: We updated the functionality for compatibility with WordPress 4.1.1.
+* Update: Screenshot was updated.
+* Bugfix: Custom select tags display bug in scripts.js was fixed.
+* Update: The following files were updated: scripts.js, functions.php, screenshot.png.
+
+= V1.0.5 - 17.03.2015 =
+* Update: BWS Themes menu was removed.
+
+= V1.0.4 - 03.03.2015 =
+* Update: The following files were updated: style.css, header.php, functions.php.
+* Update: We updated the theme to WordPress 4.1.1.
+* Bugfix: Navigation menu display was fixed.
 
 = V1.0.3 - 21.07.2014 =
 * Bugfix: Post image size bug was fixed.
@@ -135,7 +158,19 @@ The custom header image can be used. From your Admin UI (Appearance), select Hea
 = V1.0.0 - 16.04.2014 =
 * Release date of Medical Center
 
-== Upgrade Notice == 
+== Upgrade Notice ==
+
+= V1.1 =
+Fixed mismatch coding standards. Fixed theme styles. Unnecessary files category.php and tag.php have been removed. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
+
+= V1.0.6 =
+We updated the functionality for compatibility with WordPress 4.1.1. Screenshot was updated. Custom select tags display bug in scripts.js was fixed. The following files were updated: scripts.js, functions.php, screenshot.png.
+
+= V1.0.5 =
+BWS Themes menu was removed.
+
+= V1.0.4 =
+We updated the theme to WordPress 4.1.1. Navigation menu display was fixed. The following files were updated: style.css, header.php, functions.php.
 
 = V1.0.3 =
 Post image size bug and select element bugs were fixed. We checked theme for WordPress 3.9.1 and updated readme.txt.

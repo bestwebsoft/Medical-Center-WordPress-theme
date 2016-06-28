@@ -1,115 +1,46 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: medical_center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-24 16:57+0300\n"
+"POT-Creation-Date: 2016-06-28 16:52+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
-"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
-"Language: \n"
+"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: russian\n"
-"X-Poedit-Country: UKRAINE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2\n"
 "X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../index.php:20
-#: ../search.php:20
-#: ../archive.php:30
-#: ../single.php:17
-#: ../image.php:23
-#: ../category.php:20
-#: ../tag.php:22
-msgid "Posted on"
-msgstr ""
-
-#: ../index.php:21
-#: ../search.php:21
-#: ../archive.php:31
-#: ../single.php:18
-#: ../image.php:25
-#: ../category.php:21
-#: ../tag.php:23
-msgid "in"
-msgstr ""
-
-#: ../index.php:32
-#: ../search.php:31
-#: ../archive.php:42
-#: ../category.php:32
-#: ../tag.php:34
-msgid "[Top]"
-msgstr ""
-
-#: ../index.php:37
-#: ../search.php:36
-#: ../archive.php:47
-#: ../single.php:42
-#: ../image.php:72
-#: ../category.php:37
-#: ../tag.php:39
-#: ../page.php:33
-msgid "Tags:"
-msgstr ""
-
-#: ../header.php:38
-msgid "Welcome to our blog!"
-msgstr ""
-
-#: ../search.php:14
-msgid "Search results for:"
-msgstr ""
-
-#: ../search.php:45
-#: ../archive.php:56
-#: ../404.php:13
-#: ../category.php:46
-#: ../tag.php:48
+#: ../404.php:13 ../archive.php:51 ../search.php:49
 msgid "Nothing Found"
 msgstr ""
 
-#: ../search.php:47
-#: ../archive.php:58
-#: ../404.php:14
-#: ../category.php:48
-#: ../tag.php:50
+#: ../404.php:14 ../archive.php:53 ../search.php:51
 msgid "Sorry, unfortunately, we could not find the requested page."
 msgstr ""
 
-#: ../footer.php:15
-msgid "Powered by"
+#: ../archive.php:22 ../image.php:23 ../index.php:19 ../search.php:20
+#: ../single.php:17
+msgid "Posted on"
 msgstr ""
 
-#: ../footer.php:15
-msgid "and"
+#: ../archive.php:24 ../image.php:26 ../index.php:21 ../search.php:22
+#: ../single.php:19
+msgid "in"
 msgstr ""
 
-#: ../footer.php:15
-msgid "WordPress"
+#: ../archive.php:36 ../index.php:33 ../search.php:34
+msgid "[Top]"
 msgstr ""
 
-#: ../archive.php:16
-msgid "Daily Archives:"
-msgstr ""
-
-#: ../archive.php:18
-msgid "Monthly Archives:"
-msgstr ""
-
-#: ../archive.php:20
-msgid "Yearly Archives:"
-msgstr ""
-
-#: ../archive.php:22
-msgid "Archives"
-msgstr ""
-
-#: ../slider.php:35
-msgid "Learn More"
+#: ../archive.php:42 ../image.php:76 ../index.php:39 ../page.php:33
+#: ../search.php:40 ../single.php:43
+msgid "Tags:"
 msgstr ""
 
 #: ../comments.php:12
@@ -117,11 +48,87 @@ msgid "This post is password protected. Enter the password to view any comments.
 msgstr ""
 
 #: ../comments.php:17
-msgid "One thought on"
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../footer.php:15
+msgid "Powered by"
 msgstr ""
 
-#: ../comments.php:17
-msgid "thoughts on"
+#: ../footer.php:16
+msgid "and"
+msgstr ""
+
+#: ../footer.php:17
+msgid "WordPress"
+msgstr ""
+
+#: ../functions.php:31
+msgid "Primary menu"
+msgstr ""
+
+#: ../functions.php:93
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../functions.php:95
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: ../functions.php:141
+msgid "If you want to add this post in slider, choose the checkbox"
+msgstr ""
+
+#: ../functions.php:187 ../functions.php:230
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:219
+msgid "Search Results for:"
+msgstr ""
+
+#: ../functions.php:222
+msgid "Author archives"
+msgstr ""
+
+#: ../functions.php:227
+msgid "Page not found"
+msgstr ""
+
+#: ../functions.php:271
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:273
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:285
+msgid "Post author"
+msgstr ""
+
+#: ../functions.php:291
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:295
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:299
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:303
+msgid "Reply"
+msgstr ""
+
+#: ../header.php:39
+msgid "Welcome to our blog!"
 msgstr ""
 
 #: ../image.php:15
@@ -136,69 +143,14 @@ msgstr ""
 msgid "at"
 msgstr ""
 
-#: ../category.php:14
-msgid "Category:"
-msgstr ""
-
-#: ../tag.php:15
-msgid "Tag Archives:"
-msgstr ""
-
-#: ../functions.php:28
-msgid "menu"
-msgstr ""
-
-#: ../functions.php:151
-msgid "If you want to add this post in slider, choose the checkbox"
-msgstr ""
-
-#: ../functions.php:198
-#: ../functions.php:253
-msgid "Home"
-msgstr ""
-
-#: ../functions.php:238
-msgid "Search Results for:"
-msgstr ""
-
-#: ../functions.php:242
-msgid "Author archives"
-msgstr ""
-
-#: ../functions.php:249
-msgid "Page not found"
-msgstr ""
-
-#: ../functions.php:294
-msgid "Pingback:"
-msgstr ""
-
-#: ../functions.php:294
-msgid "(Edit)"
-msgstr ""
-
-#: ../functions.php:307
-msgid "Post author"
-msgstr ""
-
-#: ../functions.php:313
-#, php-format
-msgid "%1$s at %2$s"
-msgstr ""
-
-#: ../functions.php:318
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: ../functions.php:322
-msgid "Edit"
-msgstr ""
-
-#: ../functions.php:327
-msgid "Reply"
+#: ../search.php:14
+msgid "Search results for:"
 msgstr ""
 
 #: ../searchform.php:12
 msgid "Enter search keyword"
 msgstr ""
 
+#: ../slider.php:37
+msgid "Learn More"
+msgstr ""

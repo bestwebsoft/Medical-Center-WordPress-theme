@@ -5,7 +5,7 @@
 		*/
 		$( '.flexslider' ).flexslider( { /*initial slider*/
 			animation: "fade",
-			directionNav: false,
+			directionNav: false
 		});
 		// animation: "fade",		//Selecting the type of animation (fade/slide)
 		// slideshow: true,			//Enable autoplay slideshow (true/false)
@@ -121,7 +121,7 @@
 						$( optgroups[i] ).addClass( 'select-optgroup' );
 						$( optgroups[i] )
 							.text( $( 'select' ).eq( k ).find( 'optgroup' ).eq( i ).attr( 'label' ) );
-					};
+					}
 					for ( var i = 0; i < count; i++ ) {
 						$( option_array ).append( optgroups[i] );
 						for ( var j = 0; j < $( 'select' ).eq( k ).find( 'optgroup' ).eq( i ).children().size(); j++ ) {
@@ -132,8 +132,8 @@
 							$( opt ).attr( 'name', z );
 							z++;
 							$( option_array ).append( opt );
-						};
-					};
+						}
+					}
 				} else {
 					for ( var i = 0; i < $( 'select' ).eq( k ).find( 'option' ).size(); i++ ) {
 						var opt = document.createElement( 'div' );
@@ -142,8 +142,8 @@
 						$( opt ).attr( 'name', i );
 						$( opt ).text( $( 'select' ).eq( k ).find( 'option' ).eq( i ).text() );
 						$( option_array ).append( opt );
-					};
-				};
+					}
+				}
 				$( sel ).append( active_opt );
 				$( sel ).append( option_array );
 			} )( jQuery );
@@ -151,20 +151,20 @@
 		}
 
 		// correct dropdowns widgets
-		$( '.widget' ).children( 'select' ).wrap( '<div class="dropdown-widget"></div>' );
-		var drops = $( '.widget' ).children( '.mdclcntr-select' ).size();
-		var current;
-		var target;
-		for ( var i = 0; i < 2; i++ ) {
-			current = $( '.widget' ).find( '.mdclcntr-select' ).eq( i );
-			target = $( current ).prev( '.dropdown-widget' );
-			$( current ).detach();
-			$( current ).appendTo( $( target ) );
-		};
+//		$( '.widget' ).children( 'select' ).wrap( '<div class="dropdown-widget"></div>' );
+//		var drops = $( '.widget' ).children( '.mdclcntr-select' ).size();
+//		var current;
+//		var target;
+//		for ( var i = 0; i < 2; i++ ) {
+//			current = $( '.widget' ).find( '.mdclcntr-select' ).eq( i );
+//			target = $( current ).prev( '.dropdown-widget' );
+//			$( current ).detach();
+//			$( current ).appendTo( $( target ) );
+//		}
 		// archive-dropdown widget functional
 		$( '[name=archive-dropdown]' ).next( '.mdclcntr-select' ).find( '.select-option' ).click( function() {
 			location.href = $( this ).attr( 'value' );
-		});		
+		});
 		// category-dropdown widget functional
 		$( '#cat' ).next( '.mdclcntr-select' ).find( '.select-option' ).click( function() {
 			location.href = mdclcntr_home_url + '?cat=' + $( this ).attr( 'value' );
@@ -205,6 +205,7 @@
 				$( selected_select ).parent().next().find( 'div:first' ).find( 'div:first' ).text( selected_select.text() );
 			}
 		});
+
 		/* Clear select elements */
 		$( 'input:reset' ).click( function() {
 			/* Clear original selects. */
