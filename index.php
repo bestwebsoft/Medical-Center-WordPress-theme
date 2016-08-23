@@ -17,9 +17,11 @@ get_sidebar(); ?>
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<div class="mdclcntr_meta">
 							<?php _e( 'Posted on', 'medical-center' ); ?>
-							<a href="<?php the_permalink(); ?>"><?php echo get_the_date( 'j F, Y' ); ?></a>
-							<?php if ( has_category() ) : printf( '&nbsp;' . __( 'in', 'medical-center' ) . '&nbsp;' );
-								the_category( ', ' ); endif; ?>
+							<a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a>
+							<?php if ( has_category() ) :
+								echo '&nbsp;' . __( 'in', 'medical-center' ) . '&nbsp;';
+								the_category( ', ' );
+							endif; ?>
 						</div><!-- mdclcntr_meta -->
 					</header>
 					<div class="mdclcntr_img_content">

@@ -54,10 +54,7 @@ get_sidebar(); ?>
 							$next_attachment_url = wp_get_attachment_url();
 						} ?>
 						<a href="<?php echo esc_url( $next_attachment_url ); ?>" title="<?php the_title_attribute(); ?>" rel="attachment">
-							<?php $attachment_size = apply_filters( 'mdclcntr_attachment_size', array(
-								560,
-								9999,
-							) ); /* Filterable image width with 560px limit for image height. */
+							<?php $attachment_size = apply_filters( 'mdclcntr_attachment_size', array( 560, 9999, ) ); /* Filterable image width with 560px limit for image height. */
 							echo wp_get_attachment_image( $post->ID, $attachment_size ); ?>
 						</a>
 						<?php if ( ! empty( $post->post_excerpt ) ) : ?>

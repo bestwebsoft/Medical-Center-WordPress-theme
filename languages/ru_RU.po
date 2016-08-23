@@ -1,58 +1,59 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: medical_center\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-28 16:56+0300\n"
+"Project-Id-Version: Medical Center v1.2\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-23 18:26+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
-"Language: ru_RU\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
-"esc_attr_e\n"
-"X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.4\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: ../404.php:13 ../archive.php:51 ../search.php:49
+#: 404.php:13 archive.php:53 search.php:51
 msgid "Nothing Found"
 msgstr "Ничего не найдено"
 
-#: ../404.php:14 ../archive.php:53 ../search.php:51
+#: 404.php:14 archive.php:55 search.php:53
 msgid "Sorry, unfortunately, we could not find the requested page."
 msgstr "Извините, к сожалению, запрашиваемая вами страница не найдена."
 
-#: ../archive.php:22 ../image.php:23 ../index.php:19 ../search.php:20
-#: ../single.php:17
+#: archive.php:22 image.php:23 index.php:19 search.php:20 single.php:17
 msgid "Posted on"
 msgstr "Опубликовано"
 
-#: ../archive.php:24 ../image.php:26 ../index.php:21 ../search.php:22
-#: ../single.php:19
+#: archive.php:25 image.php:26 index.php:22 search.php:23 single.php:20
 msgid "in"
 msgstr "в"
 
-#: ../archive.php:36 ../index.php:33 ../search.php:34
+#: archive.php:38 index.php:35 search.php:36
 msgid "[Top]"
 msgstr "[Вверх]"
 
-#: ../archive.php:42 ../image.php:76 ../index.php:39 ../page.php:33
-#: ../search.php:40 ../single.php:43
+#: archive.php:44 image.php:73 index.php:41 page.php:33 search.php:42
+#: single.php:45
 msgid "Tags:"
 msgstr "Теги:"
 
-#: ../comments.php:12
+#: comments.php:12
 msgid ""
 "This post is password protected. Enter the password to view any comments."
 msgstr ""
 "Эта публикация защищена паролем. Введите пароль для просмотра комментариев."
 
-#: ../comments.php:17
+#: comments.php:17
 #, php-format
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -60,104 +61,112 @@ msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
 
-#: ../footer.php:15
+#: footer.php:15
 msgid "Powered by"
 msgstr "Создано"
 
-#: ../footer.php:16
+#: footer.php:16
 msgid "and"
 msgstr "и"
 
-#: ../footer.php:17
+#: footer.php:17
 msgid "WordPress"
 msgstr "WordPress"
 
-#: ../functions.php:31
+#: functions.php:31
 msgid "Primary menu"
 msgstr "Основное меню"
 
-#: ../functions.php:93
+#: functions.php:93
 msgid "Main Sidebar"
 msgstr "Главный Сайдбар"
 
-#: ../functions.php:95
+#: functions.php:95
 msgid "Widgets in this area will be shown on all posts and pages."
 msgstr "Виджеты в этой области будут показаны на всех постах и страницах."
 
-#: ../functions.php:141
+#: functions.php:118
+msgid "Choose file..."
+msgstr "Выберите файл..."
+
+#: functions.php:119
+msgid "File is not selected"
+msgstr "Файл не выбран"
+
+#: functions.php:147
 msgid "If you want to add this post in slider, choose the checkbox"
 msgstr "Если вы хотите добавить этот пост в слайдер,  нужно поставить флажок"
 
-#: ../functions.php:187 ../functions.php:230
+#: functions.php:193 functions.php:236
 msgid "Home"
 msgstr "Главная"
 
-#: ../functions.php:219
+#: functions.php:225
 msgid "Search Results for:"
 msgstr "Результаты поиска:"
 
-#: ../functions.php:222
+#: functions.php:228
 msgid "Author archives"
 msgstr "Архивы:"
 
-#: ../functions.php:227
+#: functions.php:233
 msgid "Page not found"
 msgstr "Страница не найдена"
 
-#: ../functions.php:271
+#: functions.php:277
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: ../functions.php:273
+#: functions.php:279
 msgid "(Edit)"
 msgstr "(Править)"
 
-#: ../functions.php:285
+#: functions.php:291
 msgid "Post author"
 msgstr "Опубликовано автором"
 
-#: ../functions.php:291
+#: functions.php:297
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s из %2$s"
 
-#: ../functions.php:295
+#: functions.php:301
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает модерации."
 
-#: ../functions.php:299
+#: functions.php:305
 msgid "Edit"
 msgstr "Править"
 
-#: ../functions.php:303
+#: functions.php:309
 msgid "Reply"
 msgstr "Ответить"
 
-#: ../header.php:39
+#: header.php:41
 msgid "Welcome to our blog!"
 msgstr "Добро пожаловать на наш блог!"
 
-#: ../image.php:15
+#: image.php:15
 msgid "Previous"
 msgstr "Предыдущий"
 
-#: ../image.php:16
+#: image.php:16
 msgid "Next"
 msgstr "Следующий"
 
-#: ../image.php:24
+#: image.php:24
 msgid "at"
 msgstr "в"
 
-#: ../search.php:14
+#: search.php:14
 msgid "Search results for:"
 msgstr "Результаты поиска:"
 
-#: ../searchform.php:12
+#: searchform.php:12
 msgid "Enter search keyword"
 msgstr "Введите слово или фразу"
 
-#: ../slider.php:37
+#: slider.php:37
 msgid "Learn More"
 msgstr "Читать далее"
 

@@ -60,38 +60,40 @@
 				$( this ).find( 'input' ).attr( 'checked', true );
 		}
 		});
-		
+
 		/*
 		* Select section restyle
 		*/
+
 		var test = $( 'select' ).size();
 		for ( var k = 0; k < test; k++ ) {
 			$( 'select' ).eq( k ).css( 'display', 'none' );
 			$( 'select' ).eq( k ).after( CreateSelect( k ) );
 		}
 
-		// functional of new select
-		$( '.mdclcntr-select' ).click( function() {
-			if ( $( this ).find( '.select-options' ).css( 'display' ) == 'none' ) {
-				$( this ).css( 'z-index', '100' );
-				$( this ).find( '.select-options' ).css( {
-					'display': 'block'
-				});
-			} else {
-				$( this ).css( 'z-index', '10' );
-				$( this ).find( '.select-options' ).css( {
-					'display': 'none'
-				});
+		$( document ).on( 'click', function( e ) {
+			var container1 = $( '.mdclcntr-select' );
+			if ( !container1.is( e.target ) && container1.has( e.target ).length === 0 ) {
+				container1.find( '.select-options' ).hide();
+			} else if ( container1.is( e.target ) || container1.has( e.target ).length !== 0 ) {
+				var container2 = $( e.target ).closest( '.mdclcntr-select' );
+				if ( container2.find( '.select-options' ).is( ':visible' ) ) {
+					container2.find( '.select-options' ).hide();
+				} else {
+					container1.find( '.select-options' ).hide();
+					container2.find( '.select-options' ).show();
+				}
 			}
-		});
+		} );
+
 		$( '.mdclcntr-select' ).find( '.select-option' ).click( function() {
 			$( this ).closest( '.select-options' ).find( '.select-option' ).removeClass( 'mdclcntr-option-selected' );
-			$( this ).addClass( 'mdclcntr-option-selected' )
+			$( this ).addClass( 'mdclcntr-option-selected' );
 			// write text to active opt
 			$( this ).parent().parent().find( '.select-active-option' ).find( 'div:first' ).text( $( this ).text() );
 			// remove active option from init select
 			$( this ).parent().parent().prev( 'select' ).find( 'option' ).removeAttr( 'selected' );
-			// add atrr selected to select	
+			// add atrr selected to select
 			$( this ).parent().parent().prev( 'select' ).find( 'option' ).eq( ( $( this ).attr( 'name' ) ) ).attr( 'selected', 'selected' );
 		});
 
@@ -167,7 +169,7 @@
 		});
 		// category-dropdown widget functional
 		$( '#cat' ).next( '.mdclcntr-select' ).find( '.select-option' ).click( function() {
-			location.href = mdclcntr_home_url + '?cat=' + $( this ).attr( 'value' );
+			location.href = mdclcntrStringJs.homeUrl + '?cat=' + $( this ).attr( 'value' );
 		});
 		
 		/*
@@ -176,7 +178,7 @@
 		$( 'input[type="reset"]' ).click( function() {
 			// reset checkboxes, radio, input:file
 			$( '.mdclcntr-check,.mdclcntr-radio' ).removeClass( 'mdclcntr-active' );
-			$( '.file_validator' ).text( 'File is not selected.' );
+			$( '.file_validator' ).text( mdclcntrStringJs.fileNotSel );
 		});
 
 		/*
@@ -186,10 +188,10 @@
 		$( 'input[type="file"]' ).hide();
 		$( '.wrap_file' ).append( '<div class="style_file"></div>' );
 		$( '.style_file' ).wrap( '<div class="file_form"></div>' );
-		$( '.style_file' ).append( '<span class="file_inner">Choose file...</span>' );
-		$( '.file_form' ).append( '<span class="file_validator">File is not selected.</span>' );
-		$( 'input[type="file"]' ).change( function() { 
-			$( '.file_validator' ).text( $( this ) [0].value );
+		$( '.style_file' ).append( '<span class="file_inner">' + mdclcntrStringJs.chooseFile + '</span>' );
+		$( '.file_form' ).append( '<span class="file_validator">' + mdclcntrStringJs.fileNotSel + '</span>' );
+		$( 'input[type="file"]' ).on( 'change', function() {
+			$( '.file_validator' ).text( $( this )[0].files[0]['name'] );
 		});
 		$( '.style_file' ).click( function() {
 			$( '.wrap_file input' ).trigger( 'click' );

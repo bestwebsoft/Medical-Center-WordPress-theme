@@ -12,12 +12,12 @@
 <div id="mdclcntr_footer">
 	<footer>
 		<div class="mdclcntr_footer_author">
-			<?php printf( __( 'Powered by', 'medical-center' ) . '&nbsp;' ); ?>
+			<?php echo __( 'Powered by', 'medical-center' ) . '&nbsp;'; ?>
 			<a href="<?php echo esc_url( wp_get_theme()->get( 'AuthorURI' ) ); ?>">BestWebLayout</a> <?php _e( 'and', 'medical-center' ); ?>
 			<a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>"><?php _e( 'WordPress', 'medical-center' ); ?></a>
 		</div>
 		<div class="mdclcntr_footer_bot">
-			<?php printf( '&copy;' ); ?><?php echo date( 'Y' ); ?><?php echo get_bloginfo( 'name' ); ?>
+			<?php echo '&copy;' . date_i18n( 'Y ' ) . get_bloginfo( 'name' ); ?>
 		</div>
 	</footer>
 </div>  <!-- mdclcntr_footer -->

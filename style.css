@@ -4,7 +4,7 @@ Theme URI: http://bestweblayout.com/products/medical-center/
 Author: BestWebLayout
 Author URI: http://bestweblayout.com/
 Description: If you need a perfect Theme for a hospital website, pharmacy website, medical forum, etc Medical Center is what you were looking for. It is a professional and easy to use theme with modern design. Whether you want to give medical recommendations, advice or just share your ideas Medical Center Theme is a wise solution. Is simple to customize, good-looking and have really user-friendly interface so you dont have to spend much time for customization. Medical Center demo can be found here: http://wp-demo-theme.bestweblayout.com/medicalcenter/
-Version: 1.1
+Version: 1.2
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: two-columns, left-sidebar, threaded-comments, sticky-post, custom-header, custom-background, custom-menu, translation-ready, featured-images
@@ -1781,7 +1781,7 @@ a img.aligncenter {
 
 .post .mdclcntr-select {
 	position: relative;
-	z-index: 10;
+	/*z-index: 10;*/
 	width: 222px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;

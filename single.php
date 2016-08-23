@@ -15,9 +15,11 @@ get_sidebar(); ?>
 					<h2><?php the_title(); ?></h2>
 					<div class="mdclcntr_meta">
 						<?php _e( 'Posted on', 'medical-center' );
-						echo get_archives_link( get_home_url( null, get_the_date( 'Y/m' ) ), get_the_date(), '', '', '' );
-						if ( has_category() ) : printf( '&nbsp;' . __( 'in', 'medical-center' ) . '&nbsp;' );
-							the_category( ', ' ); endif; ?>
+						echo '<a href="' . esc_url( get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) ) . '" title="' . the_title_attribute( 'echo=0' ) . '">' . get_the_date() . '</a>';
+						if ( has_category() ) :
+							echo '&nbsp;' . __( 'in', 'medical-center' ) . '&nbsp;';
+							the_category( ', ' );
+						endif; ?>
 					</div><!-- mdclcntr_meta -->
 				</header>
 				<div class="mdclcntr_img_content">

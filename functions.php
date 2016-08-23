@@ -106,15 +106,21 @@ function mdclcntr_widgets_init() {
  *
  */
 function mdclcntr_scripts_method() {
-	wp_enqueue_style( 'mdclcntrStyle', get_stylesheet_uri() );
-	wp_enqueue_script( 'comment-reply' );
-	wp_enqueue_script( 'mdclcntrScript', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ) );
-	wp_enqueue_script( 'mdclcntrJquery.flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array( 'jquery' ) );
-	wp_enqueue_script( 'mdclcntrHtml5', get_stylesheet_directory_uri() . '/js/html5.js', array( 'jquery' ) ); ?>
-	<script type="text/javascript">
-		var mdclcntr_home_url = '<?php echo esc_url( home_url() ); ?>';
-	</script>
-<?php } /* mdclcntr_scripts_method */
+	wp_enqueue_style( 'mdclcntr-style', get_stylesheet_uri() );
+	if ( is_singular() ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+	wp_enqueue_script( 'mdclcntr-script', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ) );
+	wp_enqueue_script( 'mdclcntr-jquery-flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array( 'jquery' ) );
+	wp_enqueue_script( 'mdclcntr-html5', get_stylesheet_directory_uri() . '/js/html5.js', array( 'jquery' ) );
+	wp_script_add_data( 'mdclcntr-html5', 'conditional', 'lt IE 9' );
+	$string_js = array(
+		'chooseFile' => __( 'Choose file...', 'medical-center' ),
+		'fileNotSel' => __( 'File is not selected', 'medical-center' ),
+		'homeUrl'    => home_url(),
+	);
+	wp_localize_script( 'mdclcntr-script', 'mdclcntrStringJs', $string_js );
+} /* mdclcntr_scripts_method */
 
 /**
  * Our slider.
